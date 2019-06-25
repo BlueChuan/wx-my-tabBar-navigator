@@ -1,0 +1,4 @@
+<!--custom-tab-bar/index.wxml-->
+<view class='tab-bar'>
+    <text class='iconfont {{item.iconPath}} tab-icon'  style='color: {{index===selected?selectedColor:color}}'  wx:for='{{list}}' wx:key='index' bindtap='changeTab' data-index='{{index}}' data-url='{{item.pagePath}}' data-style='{{item.navigateStyle}}'></text>
+</view>

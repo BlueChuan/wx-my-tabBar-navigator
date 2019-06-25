@@ -1,0 +1,35 @@
+{
+    "pages": [
+        "pages/usersLists/usersLists",
+        "pages/addMember/addMember",
+        "pages/mine/mine"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F1F1F1",
+        "navigationBarTitleText": "test",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "custom": true,
+        "color": "#535353",
+        "selectedColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/usersLists/usersLists",
+                "text": "用户"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "个人"
+            }
+        ]
+    },
+    "usingComponents": {
+        "header": "components/header/header",
+        "add-icon": "components/add-icon/add-icon"
+    },
+    "sitemapLocation": "sitemap.json"
+}

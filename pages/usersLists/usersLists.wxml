@@ -1,0 +1,14 @@
+<!--miniprogram/pages/usersLists/usersLists.wxml-->
+<view   class='container usersLists'>
+    <header class='my-head'>
+        <view class='search'  style='top:{{alignTop}}rpx;height:{{circleHeight}}px;'>
+            <text class='iconfont iconsousuo'></text>
+            <input type='text' class='input' placeholder-class="phcolor"  placeholder='姓名'  value='{{inputValue}}'
+         confirm-type='search'  focus='{{focus}}'  bindinput='bindSearchValue'   bindconfirm='confirmSearch' disabled='{{disable}}' adjust-position='{{adjustPosition}}'></input>
+        </view>
+    </header>
+    <view class='artic'>
+        
+    </view>
+    <add-icon class='false-tab-icon'></add-icon>
+</view>

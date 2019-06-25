@@ -1,0 +1,2 @@
+<!--components/add-icon/add-icon.wxml-->
+<text class='iconfont iconjia add-icon' bindtap='goAddPage'></text>

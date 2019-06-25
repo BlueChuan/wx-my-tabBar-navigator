@@ -1,0 +1,4 @@
+<!--components/header/header.wxml-->
+<view class='header' style='padding-top:{{statusBarHeight}}rpx;height:{{isIOS?"82rpx":"90rpx"}}'>
+    <slot></slot>
+</view>

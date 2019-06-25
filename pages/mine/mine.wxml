@@ -1,0 +1,7 @@
+<!--miniprogram/pages/mine/mine.wxml-->
+<view   class='container addMember'>
+    <header class='my-head'>
+        <text class='page-title'>个人中心</text>
+    </header>
+    <add-icon class='false-tab-icon'></add-icon>
+</view>

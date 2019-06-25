@@ -1,0 +1,21 @@
+/* custom-tab-bar/custom-tab-bar.wxss */
+@import "../style/iconfont.wxss";
+.tab-bar{
+    height: 150rpx;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tab-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    height: 100%;
+    font-size: 70rpx;
+    color: #535353;
+}
+.active{
+    color: rgb(131,175,155);
+}
